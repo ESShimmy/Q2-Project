@@ -1,0 +1,39 @@
+        header {
+            text-decoration: overline underline;
+            color: #3E8858;
+            text-align: center;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            text-size-adjust: 200px;
+            font-size: 30px;
+        }
+
+
+        body {
+            background-image: linear-gradient(to bottom, #283c86, #45a247);
+        }
+
+        .pizza-menu {
+            display: flex;
+            column-gap: 20px;
+            justify-content: center;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            flex-wrap: wrap;
+        }
+
+        .pizza-menu-images {
+            height: 200px;
+            width: 300px;
+            row-gap: 30px;
+        }
+        
+
+        .pizza {
+            border: 1px solid black;
+            text-align: center;
+            width: 350px;
+            background-color: #85ABA9;
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
